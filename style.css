@@ -1,0 +1,225 @@
+/* Styling */
+
+body {
+    background-image: url("img.jpg");
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Itim', cursive;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px;
+}
+
+/* Search Bar */
+.search {
+    float: right;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: aliceblue;
+    font-family: 'Exo 2', sans-serif;
+    height: 30px;
+    margin: 4px 5px;
+    left: 12px;
+    box-shadow: 0 0 15px 0 #00000059;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    transition: all 0.3s ease-in-out;
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.search:hover {
+    display: inline-block;
+    border: 3px solid rgb(255, 255, 255);
+    transform: scale(1.1, 1.1);
+}
+
+/* Navigation Bar */
+.navbar {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgb(68 69 71 / 34%);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 12px 12px 12px 140px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Home About Contact */
+.text {
+    font-family: 'Exo 2', sans-serif;
+    margin-left: 75px;
+    letter-spacing: 1.5px;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s ease-in-out;
+}
+
+.text:hover {
+    color: rgb(230, 191, 250);
+    transform: scale(1.1);
+    letter-spacing: 1px;
+}
+
+/* SideBar */
+
+.sidenav {
+    height: 88%;
+    /* Full-height: remove this if you want "auto" height */
+    width: 140px;
+    /* Set the width of the sidebar */
+    position: absolute;
+    /* Fixed Sidebar (stay in place on scroll) */
+    top: 66px;
+    /* Stay at the top */
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.09);
+    box-shadow: 0 8px 32px 0 rgb(68 69 71 / 34%);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.sidenavname {
+    font-size: x-large;
+    text-decoration: none;
+    font-family: 'Itim', cursive;
+    padding: 3px;
+    color: aliceblue;
+}
+
+.side-nav-category {
+    text-decoration: none;
+    font-family: 'Itim', cursive;
+    font-size: large;
+    padding: 3px;
+    color: aliceblue;
+}
+
+.side-nav-category{
+    transition: all 0.2s ease-in-out;
+}
+
+.side-nav-category:hover{
+    color: rgb(230, 191, 250);
+    transform: scale(1.1);
+    letter-spacing: 1px;
+}
+
+/* Radio button id*/
+#category {
+    margin-bottom: 15px;
+}
+
+/* Whole card */
+.column {
+    background-color: azure;
+    border-radius: 8px;
+    display: inline-block;
+    transition: all 0.6s ease-in-out;
+}
+
+.column:hover {
+    transform: scale(1.05);
+}
+
+/* Title Part */
+.card {
+
+    background-color: azure;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    margin-top: -15px;
+}
+
+/* Whole First Row */
+.row1 {
+    margin-left: 190px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+
+/* Images */
+.image {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* Second Row */
+
+.row2 {
+    margin-left: 190px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+
+/* Uplifting the 4K */
+.uplift {
+    margin-top: -17px;
+}
+
+/* Designing logo */
+.logo {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: -5px 0px 0px -100px;
+}
+/* Logo in home page */
+.logo1 {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: -20px 0px -24px -440px;
+}
+
+/* qr */
+.app{
+    margin-left: 190px;
+    margin-top: 20px;
+}
+
+#qr{
+    width: 330px;
+    border-radius: 10px;
+}
+
+/* Social Links*/
+#social{
+    margin-left: 190px;
+    margin-top: 20px;
+}
+
+.social-icon{
+    width: 60px;
+    margin: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.social-icon:hover{
+    transform: scale(1.25);
+
+}
+
+/* AboutUS */
+
+#aboutus{
+    margin-left: 190px;
+    margin-top: 20px;
+    margin-right: 190px;
+}
+
+

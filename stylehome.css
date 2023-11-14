@@ -1,0 +1,16 @@
+
+/* Styling part */
+body{
+    background-image: linear-gradient(45deg, #2c69d1,#0abdf9);
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Itim', cursive;
+}
+
+.text:hover {
+    color: rgb(0, 5, 103);
+    transform: scale(1.1);
+    letter-spacing: 2px;
+}
